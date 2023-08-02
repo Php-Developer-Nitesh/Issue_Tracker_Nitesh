@@ -1,7 +1,8 @@
 const mongoose = require("mongoose");
-const url = "mongodb://0.0.0.0:27017/db";
+// const url = "mongodb://0.0.0.0:27017/db";
 // mongoose.connect('url')
-mongoose.connect(url);
+mongoose.connect('mongodb+srv://niteshkumarranjan534:nitesh123@cluster0.xnngdvj.mongodb.net/db');
+
 const db = mongoose.connection;
 
 //If any Error then Getting this Line
